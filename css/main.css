@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f8f9fa !important;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  box-shadow: 0px 0px 8px #888888;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-color: #00000021;
+}
+
+.sidenav::-webkit-scrollbar {
+  display: none;
+}
+.alarm {
+  background-color: rgb(1, 102, 184);
+  text-align: center;
+}
+.alarm > div > a {
+  text-decoration: none;
+  color: white;
+}
+.alarm > div > a:hover {
+  border-bottom: 1px solid white;
+}
+.alarm > div > strong {
+  color: white;
+}
+
+.carousel-caption {
+  top: 100px;
+  left: -380px;
+}
+.carousel-caption > h1 {
+  color: black;
+  font-size: 30px;
+}
+.carousel-caption > h4 {
+  color: black;
+  font-size: 15px;
+}
+.carousel-caption > a {
+  text-decoration: none;
+}
+.card-body > h5 {
+  width: max-content;
+}
+.card-body > h6 {
+  font-weight: bold;
+}
+.card-body > a {
+  text-decoration: none;
+}
+.card-body > a:hover {
+  font-weight: bold;
+}
+.card-footer > a {
+  text-decoration: none;
+}
+.card-footer > a:hover {
+  font-weight: 500;
+}
+.mycarousel2 .carousel-inner{
+    padding: 1em;
+}
+@media (max-width: 992px) {
+  .mycarousel2 .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .mycarousel2 .carousel-inner .carousel-item > div:first-child {
+    display: flex;
+  }
+  
+}
+.card{
+    box-shadow: 2px 6px 8px 3px rgba(22, 22, 26, 0.18); ;
+}
+.mycarousel2 .card{
+    
+    margin: 0 .5em;
+    box-shadow: 2px 6px 8px 3px rgba(22, 22, 26, 0.18);
+    border: none;
+}
+.mycarousel2 .carousel-inner .carousel-item.active,
+.mycarousel2 .carousel-inner .carousel-item-next,
+.mycarousel2 .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+@media (min-width: 992px) {
+    .mycarousel2 .carousel-inner .carousel-item-end.active,
+    .mycarousel2 .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .mycarousel2  .carousel-inner .carousel-item-start.active,
+  .mycarousel2  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+
+}
+.mycarousel2 .carousel-inner .carousel-item-end,
+.mycarousel2 .carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+.mycarousel2 .card-body > h5 {
+    font-size: 16px;
+  }
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #fffaff;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(80, 221, 237), rgb(255, 255, 255));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(234, 191, 219), rgb(193, 242, 250))
+    }
+    @media (min-width: 1025px) {
+.h-custom {
+height: 100vh !important;
+}
+}
+@media (min-width: 576px) {
+    .h-custom {
+    height: auto !important;
+    }
+    }
